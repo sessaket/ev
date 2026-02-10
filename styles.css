@@ -372,6 +372,27 @@ body {
   line-height: 1.2;
 }
 
+.slide-header-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo-chip {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #d9e5f1;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(10, 35, 58, 0.14);
+  padding: 4px 8px;
+}
+
+.header-logo-chip img {
+  width: 72px;
+  height: 24px;
+  object-fit: contain;
+  display: block;
+}
+
 .slide-category {
   border: 1px solid #d2e0ec;
   border-radius: 999px;

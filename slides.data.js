@@ -472,7 +472,7 @@ const SLIDE_ENTRIES = [
       rowSource: "cars"
     },
     heroImage: "",
-    brandLogo: "",
+    brandLogo: "assets/Tomorrow_Systems_Logo.webp",
     details: {
       powertrain: null,
       power: null,
@@ -525,7 +525,7 @@ const SLIDE_ENTRIES = [
       ]
     },
     heroImage: "",
-    brandLogo: "",
+    brandLogo: "assets/Tomorrow_Systems_Logo.webp",
     details: {
       powertrain: null,
       power: null,
@@ -667,7 +667,7 @@ const SLIDE_ENTRIES = [
     regionFr: "Chine",
     heroImage: "assets/chargers/setec.png",
     heroOverlay: "SETEC POWER origin-verified charging profile",
-    brandLogo: "",
+    brandLogo: "assets/brands/setec.png",
     excludeFromCarsTable: true,
     details: {
       powertrain: null,
@@ -763,7 +763,7 @@ const SLIDE_ENTRIES = [
     regionFr: "Chine",
     heroImage: "assets/chargers/sinexcel.png",
     heroOverlay: "Sinexcel origin-verified charging profile",
-    brandLogo: "",
+    brandLogo: "assets/brands/sinexcel.png",
     excludeFromCarsTable: true,
     details: {
       powertrain: null,
@@ -861,7 +861,7 @@ const SLIDE_ENTRIES = [
     regionFr: "Chine",
     heroImage: "assets/chargers/xcharge.png",
     heroOverlay: "XCharge Chinese-founded profile with global operations",
-    brandLogo: "",
+    brandLogo: "assets/brands/xcharge.png",
     excludeFromCarsTable: true,
     details: {
       powertrain: null,
@@ -961,7 +961,7 @@ const SLIDE_ENTRIES = [
     regionFr: "Chine",
     heroImage: "assets/chargers/starcharge.png",
     heroOverlay: "StarCharge Chinese company profile with global HQ hub",
-    brandLogo: "",
+    brandLogo: "assets/brands/starcharge.png",
     excludeFromCarsTable: true,
     details: {
       powertrain: null,
@@ -1061,7 +1061,7 @@ const SLIDE_ENTRIES = [
     regionFr: "China / Global",
     heroImage: "assets/chargers/autel.png",
     heroOverlay: "Autel Energy AC/DC charging with software diagnostics focus",
-    brandLogo: "",
+    brandLogo: "assets/brands/autel.png",
     excludeFromCarsTable: true,
     details: {
       powertrain: null,
@@ -1168,7 +1168,7 @@ const SLIDE_ENTRIES = [
       ]
     },
     heroImage: "",
-    brandLogo: "",
+    brandLogo: "assets/Tomorrow_Systems_Logo.webp",
     details: {
       powertrain: null,
       power: null,

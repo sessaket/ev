@@ -28,6 +28,8 @@
   const insightsGridEl = document.getElementById("insightsGrid");
   const ctaRowEl = document.getElementById("ctaRow");
   const compareCardEl = document.getElementById("compareCard");
+  const headerLogoChipEl = document.getElementById("headerLogoChip");
+  const headerLogoImageEl = document.getElementById("headerLogoImage");
   const carLogoChipEl = document.getElementById("carLogoChip");
   const carLogoImageEl = document.getElementById("carLogoImage");
   const heroImageEl = document.getElementById("heroImage");
@@ -792,9 +794,39 @@
     const defaultWebsiteText = getUiText("website") || getUiText("officialWebsite") || "Website";
     const defaultSecondaryText = getUiText("getApp") || "Get the App";
 
+    if (slide.brandLogo) {
+      if (tableSlide) {
+        if (headerLogoChipEl && headerLogoImageEl) {
+          headerLogoChipEl.hidden = false;
+          headerLogoImageEl.src = slide.brandLogo;
+          headerLogoImageEl.alt = modelName(slide) + " logo";
+        }
+        carLogoChipEl.hidden = true;
+        carLogoImageEl.removeAttribute("src");
+        carLogoImageEl.alt = "";
+      } else {
+        if (headerLogoChipEl && headerLogoImageEl) {
+          headerLogoChipEl.hidden = true;
+          headerLogoImageEl.removeAttribute("src");
+          headerLogoImageEl.alt = "";
+        }
+        carLogoChipEl.hidden = false;
+        carLogoImageEl.src = slide.brandLogo;
+        carLogoImageEl.alt = modelName(slide) + " logo";
+      }
+    } else {
+      if (headerLogoChipEl && headerLogoImageEl) {
+        headerLogoChipEl.hidden = true;
+        headerLogoImageEl.removeAttribute("src");
+        headerLogoImageEl.alt = "";
+      }
+      carLogoChipEl.hidden = true;
+      carLogoImageEl.removeAttribute("src");
+      carLogoImageEl.alt = "";
+    }
+
     if (tableSlide) {
       renderComparisonTable(slide);
-      carLogoChipEl.hidden = true;
       heroImageEl.removeAttribute("src");
       heroImageEl.alt = "";
       heroOverlayTitleEl.hidden = true;
@@ -804,16 +836,6 @@
       appBtnEl.href = "#";
       renderSources(slide);
       return;
-    }
-
-    if (slide.brandLogo) {
-      carLogoChipEl.hidden = false;
-      carLogoImageEl.src = slide.brandLogo;
-      carLogoImageEl.alt = modelName(slide) + " logo";
-    } else {
-      carLogoChipEl.hidden = true;
-      carLogoImageEl.removeAttribute("src");
-      carLogoImageEl.alt = "";
     }
 
     if (slide.heroImage) {
