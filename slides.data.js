@@ -658,6 +658,296 @@ const SLIDE_ENTRIES = [
     }
   },
   {
+    id: "furen-ev-chargers",
+    modelName: "FUREN High-Tech EV Chargers",
+    sidebarTitle: "FUREN EV Chargers",
+    subtitle: "EV charging hardware",
+    category: "CHARGER",
+    region: "China",
+    regionFr: "Chine",
+    heroImage: "assets/chargers/furen-hero.png",
+    heroOverlay: "FUREN EV CHARGER and product manual snapshot",
+    brandLogo: "assets/brands/furen.png",
+    excludeFromCarsTable: true,
+    details: {
+      powertrain: null,
+      power: null,
+      range_km: null,
+      fuel_economy_l100km: null,
+      charging: null,
+      price_mad: null,
+      availability: "available_now"
+    },
+    links: {
+      official: "https://www.refueldispenser.com/",
+      app: "Product%20manual--%20Furen%20High-tech%20Company%20(1).pdf"
+    },
+    ctaLabels: {
+      website: "Website",
+      secondary: "Catalog"
+    },
+    t: {
+      en: {
+        sub: "EV charging hardware",
+        sb: "FUREN EV Chargers",
+        ho: "FUREN EV CHARGER and product manual snapshot",
+        cta: { website: "Website", secondary: "Catalog" },
+        dr: [
+          { label: "TYPE", value: "EV Chargers (AC + DC)" },
+          { label: "KEY PRODUCTS", value: "AC wallbox and DC station families from uploaded PDFs" },
+          { label: "POWER RANGE", value: "AC around 7kW, DC around 15-320kW (brochure-reported)" },
+          { label: "STANDARDS", value: "Connector/protocol details depend on brochure model tables" },
+          { label: "SOURCE", value: "FUREN EV CHARGER.pdf + Product manual PDF" }
+        ],
+        d: { availability: "Available now" },
+        s: [
+          "Covers both home-level and public DC charging scenarios.",
+          "PDF materials include product family and company profile context.",
+          "Useful additional vendor option for multi-supplier strategy."
+        ],
+        l: [
+          "Local service and warranty setup in Morocco needs verification.",
+          "Some technical values require direct page-by-page validation.",
+          "Interoperability details can vary by exact model."
+        ],
+        w: [
+          "Adds supplier diversity for Morocco infrastructure rollout.",
+          "Supports faster benchmarking of AC and DC options.",
+          "Helps procurement teams compare cost/spec tradeoffs."
+        ],
+        src: [
+          { title: "FUREN PDF", value: "FUREN EV CHARGER source", url: "FUREN%20EV%20CHARGER.pdf" },
+          { title: "FUREN Manual", value: "Product manual source", url: "Product%20manual--%20Furen%20High-tech%20Company%20(1).pdf" }
+        ]
+      },
+      fr: {
+        sub: "Materiel de recharge EV",
+        sb: "FUREN EV Chargers",
+        ho: "Apercu FUREN EV CHARGER et manuel produit",
+        cta: { website: "Website", secondary: "Catalog" },
+        dr: [
+          { label: "TYPE", value: "Chargeurs EV (AC + DC)" },
+          { label: "PRODUITS CLES", value: "Familles wallbox AC et stations DC selon PDFs" },
+          { label: "PLAGE DE PUISSANCE", value: "AC ~7kW, DC ~15-320kW (selon brochure)" },
+          { label: "STANDARDS", value: "Details protocoles/connecteurs selon tableaux modele" },
+          { label: "SOURCE", value: "FUREN EV CHARGER.pdf + manuel produit" }
+        ],
+        d: { availability: "Disponible maintenant" },
+        s: [
+          "Couvre des scenarios domicile et station DC publique.",
+          "Les PDFs donnent un contexte produit + entreprise.",
+          "Option fournisseur additionnelle pour strategie multi-vendeurs."
+        ],
+        l: [
+          "Le dispositif SAV local au Maroc reste a verifier.",
+          "Certaines valeurs techniques demandent validation page par page.",
+          "Les details d interop peuvent varier selon modele."
+        ],
+        w: [
+          "Ajoute de la diversification fournisseur pour le Maroc.",
+          "Accelere le benchmark AC/DC.",
+          "Aide les equipes achat a comparer cout/spec."
+        ],
+        src: [
+          { title: "PDF FUREN", value: "Source FUREN EV CHARGER", url: "FUREN%20EV%20CHARGER.pdf" },
+          { title: "Manuel FUREN", value: "Source manuel produit", url: "Product%20manual--%20Furen%20High-tech%20Company%20(1).pdf" }
+        ]
+      }
+    }
+  },
+  {
+    id: "tonhe-charging-modules",
+    modelName: "Tonhe Technology Charging Modules",
+    sidebarTitle: "Tonhe Charging Modules",
+    subtitle: "Charging modules",
+    category: "CHARGER",
+    region: "China",
+    regionFr: "Chine",
+    heroImage: "assets/chargers/tonhe-hero.png",
+    heroOverlay: "Tonhe module catalog snapshot",
+    brandLogo: "assets/brands/tonhe.png",
+    excludeFromCarsTable: true,
+    details: {
+      powertrain: null,
+      power: null,
+      range_km: null,
+      fuel_economy_l100km: null,
+      charging: null,
+      price_mad: null,
+      availability: "available_now"
+    },
+    links: {
+      official: "https://www.tonhetech.com/",
+      app: "Charging%20Module%20catalog%202026-new.pdf"
+    },
+    ctaLabels: {
+      website: "Website",
+      secondary: "Catalog"
+    },
+    t: {
+      en: {
+        sub: "Charging modules",
+        sb: "Tonhe Charging Modules",
+        ho: "Tonhe module catalog snapshot",
+        cta: { website: "Website", secondary: "Catalog" },
+        dr: [
+          { label: "TYPE", value: "Charging Modules (for DC charger stacks)" },
+          { label: "KEY PRODUCTS", value: "G51/G45/G101/G102/G64/G53/Z13/Z14 families (brochure-reported)" },
+          { label: "POWER RANGE", value: "Module-level architecture; 40kW/1000V class referenced in deck inputs" },
+          { label: "STANDARDS", value: "OCPP/integration and connector notes vary by station configuration" },
+          { label: "SOURCE", value: "Charging Module catalog 2026-new.pdf" }
+        ],
+        d: { availability: "Available now" },
+        s: [
+          "Module-focused approach supports scalable DC cabinet design.",
+          "Useful for high-power corridors where efficiency matters.",
+          "Improves flexibility for OEM/ODM charger integrators."
+        ],
+        l: [
+          "Needs final extraction of exact model-by-model specs.",
+          "Field thermal performance depends on cabinet and cooling design.",
+          "Certification scope can differ by destination market."
+        ],
+        w: [
+          "Important for Morocco highway fast-charge expansion planning.",
+          "Helps evaluate long-term TCO at module/platform level.",
+          "Supports technical due diligence in vendor selection."
+        ],
+        src: [
+          { title: "Tonhe Module Catalog", value: "Charging Module catalog 2026 source", url: "Charging%20Module%20catalog%202026-new.pdf" }
+        ]
+      },
+      fr: {
+        sub: "Modules de charge",
+        sb: "Tonhe Charging Modules",
+        ho: "Apercu catalogue modules Tonhe",
+        cta: { website: "Website", secondary: "Catalog" },
+        dr: [
+          { label: "TYPE", value: "Modules de charge (stacks bornes DC)" },
+          { label: "PRODUITS CLES", value: "Familles G51/G45/G101/G102/G64/G53/Z13/Z14 (selon brochure)" },
+          { label: "PLAGE DE PUISSANCE", value: "Architecture module; classe 40kW/1000V referencee" },
+          { label: "STANDARDS", value: "OCPP/integration et connecteurs selon configuration station" },
+          { label: "SOURCE", value: "Charging Module catalog 2026-new.pdf" }
+        ],
+        d: { availability: "Disponible maintenant" },
+        s: [
+          "Approche module utile pour design DC evolutif.",
+          "Pertinent pour corridors haute puissance et rendement.",
+          "Donne plus de flexibilite aux integrateurs OEM/ODM."
+        ],
+        l: [
+          "Extraction finale des specs modele par modele requise.",
+          "Performance thermique terrain depend du design armoire.",
+          "Le perimetre certification varie selon marche cible."
+        ],
+        w: [
+          "Important pour planification autoroute au Maroc.",
+          "Aide a evaluer le TCO long terme au niveau plateforme.",
+          "Renforce la due diligence technique fournisseur."
+        ],
+        src: [
+          { title: "Catalogue modules Tonhe", value: "Source catalog 2026", url: "Charging%20Module%20catalog%202026-new.pdf" }
+        ]
+      }
+    }
+  },
+  {
+    id: "brochure-china-charger",
+    modelName: "China Supplier (Brochure)",
+    sidebarTitle: "China Supplier Brochure",
+    subtitle: "Brochure source",
+    category: "CHARGER",
+    region: "China",
+    regionFr: "Chine",
+    heroImage: "assets/chargers/brochure-china-hero.png",
+    heroOverlay: "Brochure-based supplier placeholder",
+    brandLogo: "assets/brands/brochure-china.png",
+    excludeFromCarsTable: true,
+    details: {
+      powertrain: null,
+      power: null,
+      range_km: null,
+      fuel_economy_l100km: null,
+      charging: null,
+      price_mad: null,
+      availability: "available_now"
+    },
+    links: {
+      official: "https://www.tonhetech.com/",
+      app: "%E6%8A%98%E9%A1%B5%20(2).pdf"
+    },
+    ctaLabels: {
+      website: "Website",
+      secondary: "Catalog"
+    },
+    t: {
+      en: {
+        sub: "Brochure source",
+        sb: "China Supplier Brochure",
+        ho: "Brochure-based supplier placeholder",
+        cta: { website: "Website", secondary: "Catalog" },
+        dr: [
+          { label: "TYPE", value: "EV Chargers (brochure source)" },
+          { label: "KEY PRODUCTS", value: "Brochure images indicate charger product portfolio" },
+          { label: "POWER RANGE", value: "To be confirmed from extracted brochure pages" },
+          { label: "STANDARDS", value: "To be confirmed from readable brochure sections" },
+          { label: "SOURCE", value: "折页 (2).pdf brochure input" }
+        ],
+        d: { availability: "Available now" },
+        s: [
+          "Keeps brochure supplier visible in the benchmark flow.",
+          "Preserves space for final OCR/spec extraction update.",
+          "Supports side-by-side supplier comparison once parsed."
+        ],
+        l: [
+          "Brand name and specs require direct PDF page extraction.",
+          "Current content is intentionally placeholder until OCR pass.",
+          "Technical claims must be replaced with exact brochure values."
+        ],
+        w: [
+          "Prevents missing supplier coverage in China benchmark section.",
+          "Keeps deck structure ready for evidence-based updates.",
+          "Improves continuity for procurement review sessions."
+        ],
+        src: [
+          { title: "Brochure PDF", value: "Chinese brochure source", url: "%E6%8A%98%E9%A1%B5%20(2).pdf" }
+        ]
+      },
+      fr: {
+        sub: "Source brochure",
+        sb: "China Supplier Brochure",
+        ho: "Placeholder fournisseur base brochure",
+        cta: { website: "Website", secondary: "Catalog" },
+        dr: [
+          { label: "TYPE", value: "Chargeurs EV (source brochure)" },
+          { label: "PRODUITS CLES", value: "Images brochure montrant un portefeuille bornes" },
+          { label: "PLAGE DE PUISSANCE", value: "A confirmer apres extraction pages brochure" },
+          { label: "STANDARDS", value: "A confirmer depuis sections lisibles brochure" },
+          { label: "SOURCE", value: "Entree brochure 折页 (2).pdf" }
+        ],
+        d: { availability: "Disponible maintenant" },
+        s: [
+          "Maintient la couverture fournisseur dans le flux benchmark.",
+          "Reserve une place pour mise a jour OCR/spec finale.",
+          "Facilite comparaison fournisseur apres extraction."
+        ],
+        l: [
+          "Nom de marque et specs a extraire du PDF.",
+          "Contenu actuel volontairement provisoire avant OCR.",
+          "Claims techniques a remplacer par valeurs brochure exactes."
+        ],
+        w: [
+          "Evite un trou de couverture fournisseur dans la section Chine.",
+          "Garde la structure prete pour mise a jour basee preuves.",
+          "Ameliore la continuite en revue achats."
+        ],
+        src: [
+          { title: "Brochure PDF", value: "Source brochure chinoise", url: "%E6%8A%98%E9%A1%B5%20(2).pdf" }
+        ]
+      }
+    }
+  },
+  {
     id: "setec-power-ev-chargers-verified",
     modelName: "SETEC POWER EV Charger Solutions",
     sidebarTitle: "SETEC POWER (HQ Proof)",
