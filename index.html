@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EV Morocco Benchmark Deck</title>
+  <link rel="stylesheet" href="styles.css?v=16" />
+</head>
+<body>
+  <div class="deck-app" id="deckApp">
+    <button
+      id="menuBtn"
+      class="menu-btn"
+      type="button"
+      aria-label="Toggle slides menu"
+      aria-controls="sidebar"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <aside class="sidebar" id="sidebar" aria-label="Slides list">
+      <div class="brand-card">
+        <img src="assets/Tomorrow_Systems_Logo.webp" alt="Deck logo" class="brand-logo" />
+        <p class="brand-line" id="brandLine"></p>
+      </div>
+
+      <h1 class="deck-title" id="deckTitle">EV Morocco Benchmark Deck</h1>
+      <p class="section-label" id="sectionLabel">PRESENTATION WEBSITE UI</p>
+
+      <label class="slide-search-wrap" for="slideSearchInput">
+        <span class="slide-search-label" id="slideSearchLabel">Search slides</span>
+        <input id="slideSearchInput" class="slide-search-input" type="search" placeholder="Search" />
+      </label>
+
+      <nav class="slides-nav" id="slidesNav"></nav>
+    </aside>
+
+    <button id="sidebarOverlay" class="sidebar-overlay" type="button" aria-label="Close slide menu"></button>
+
+    <main class="main-area">
+      <header class="topbar">
+        <span class="counter" id="slideCounter">1 / 10</span>
+
+        <div class="topbar-controls">
+          <button id="prevBtn" class="ctrl-btn" type="button">Prev</button>
+          <button id="nextBtn" class="ctrl-btn" type="button">Next</button>
+          <button id="fullscreenBtn" class="ctrl-btn" type="button">Fullscreen</button>
+
+          <div class="lang-toggle" role="group" aria-label="Language toggle">
+            <button type="button" class="lang-btn is-active" data-lang="en">EN</button>
+            <button type="button" class="lang-btn" data-lang="fr">FR</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="canvas-wrap" id="canvasWrap">
+        <article class="slide-canvas" id="slideCanvas" aria-live="polite">
+          <header class="slide-header">
+            <div>
+              <p class="slide-region" id="slideRegion">Morocco</p>
+              <h2 class="slide-title" id="slideTitle"></h2>
+            </div>
+            <span class="slide-category" id="slideCategory"></span>
+          </header>
+
+          <div class="slide-main-grid" id="slideMainGrid">
+            <section class="hero-card">
+              <div class="car-logo-chip" id="carLogoChip" hidden>
+                <img id="carLogoImage" src="" alt="Car logo" />
+              </div>
+              <img id="heroImage" src="" alt="Car image" />
+              <div class="hero-overlay-title" id="heroOverlayTitle"></div>
+            </section>
+
+            <aside class="details-card">
+              <h3 class="section-title" id="detailsHeading">DETAILS</h3>
+              <div id="detailsRows" class="details-rows"></div>
+            </aside>
+          </div>
+
+          <div class="insights-grid" id="insightsGrid">
+            <section class="insight-card">
+              <h3 class="section-title" id="strengthsHeading">STRENGTHS</h3>
+              <ul id="strengthsList"></ul>
+            </section>
+            <section class="insight-card">
+              <h3 class="section-title" id="limitsHeading">LIMITS</h3>
+              <ul id="limitsList"></ul>
+            </section>
+            <section class="insight-card">
+              <h3 class="section-title" id="whyHeading">WHY IT MATTERS</h3>
+              <ul id="whyList"></ul>
+            </section>
+          </div>
+
+          <footer class="cta-row" id="ctaRow">
+            <a id="officialBtn" class="cta-btn" href="#" target="_blank" rel="noopener">Official Website</a>
+            <a id="appBtn" class="cta-btn cta-accent" href="#" target="_blank" rel="noopener">Get the App</a>
+          </footer>
+
+          <section class="sources-panel" id="sourcesPanel" hidden>
+            <h3 class="section-title" id="sourcesHeading">SOURCES</h3>
+            <div class="sources-grid" id="sourcesGrid"></div>
+          </section>
+
+          <section class="compare-card" id="compareCard" aria-label="Cars comparison table" hidden>
+            <h3 class="section-title" id="compareHeading">CARS POWER TABLE</h3>
+            <div class="compare-table-wrap">
+              <table class="compare-table">
+                <thead>
+                  <tr id="compareHeadRow"></tr>
+                </thead>
+                <tbody id="compareTableBody"></tbody>
+              </table>
+            </div>
+          </section>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="slides.data.js?v=16"></script>
+  <script src="app.js?v=16"></script>
+</body>
+</html>
