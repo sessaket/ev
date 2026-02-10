@@ -658,15 +658,15 @@ const SLIDE_ENTRIES = [
     }
   },
   {
-    id: "starcharge-ev-chargers",
-    modelName: "StarCharge EV Charger Solutions",
-    sidebarTitle: "StarCharge EV Chargers",
-    subtitle: "Charging hardware supplier",
-    category: "EV Charging Infrastructure",
-    region: "China / Global",
-    regionFr: "China / Global",
-    heroImage: "assets/chargers/starcharge.png",
-    heroOverlay: "StarCharge AC/DC charging portfolio",
+    id: "setec-power-ev-chargers-verified",
+    modelName: "SETEC POWER EV Charger Solutions",
+    sidebarTitle: "SETEC POWER (HQ Proof)",
+    subtitle: "China charger solutions",
+    category: "CHARGER",
+    region: "China",
+    regionFr: "Chine",
+    heroImage: "assets/chargers/setec.png",
+    heroOverlay: "SETEC POWER origin-verified charging profile",
     brandLogo: "",
     excludeFromCarsTable: true,
     details: {
@@ -679,86 +679,90 @@ const SLIDE_ENTRIES = [
       availability: "available_now"
     },
     links: {
-      official: "https://www.starcharge.com",
-      app: "https://www.starcharge.com"
+      official: "https://www.setecpower.com/",
+      app: "https://www.setecpower.com/"
     },
     ctaLabels: {
       website: "Website",
-      secondary: "Datasheet"
+      secondary: "Source"
     },
     t: {
       en: {
-        sub: "Charging hardware supplier",
-        sb: "StarCharge EV Chargers",
-        ho: "StarCharge EV charger solutions for public and fleet infrastructure",
-        cta: { website: "Website", secondary: "Datasheet" },
+        sub: "China charger solutions",
+        sb: "SETEC POWER (HQ Proof)",
+        ho: "SETEC POWER EV charging profile with origin proof",
+        cta: { website: "Website", secondary: "Source" },
         dr: [
-          { label: "CHARGER TYPES", value: "AC + DC" },
-          { label: "POWER RANGE", value: "AC 7-22 kW | DC up to 360 kW" },
-          { label: "CONNECTOR TYPES", value: "Type 2, CCS2 (model dependent)" },
-          { label: "SMART / NETWORK", value: "OCPP support" },
-          { label: "TYPICAL USE", value: "Public, highway, fleet, commercial" }
+          { label: "COMPANY ORIGIN", value: "China" },
+          { label: "HQ / PROOF", value: "Shenzhen, China - #199 Setec Industrial Park, Nanshan, Shenzhen (company website address)." },
+          { label: "PRODUCT SCOPE", value: "DC fast chargers (commercial/public)." },
+          { label: "TYPICAL POWER RANGE", value: "DC 20-240 kW" },
+          { label: "SMART / NETWORK", value: "OCPP support varies by model." }
         ],
         d: { availability: "Available now" },
         s: [
-          "Large global deployments and field experience.",
-          "Broad AC and DC portfolio across site types.",
-          "Scalable options for mixed urban + corridor rollout."
+          "Cost-effective DC fast charging portfolio.",
+          "Practical range for public and fleet deployments.",
+          "China manufacturing base can support volume scaling."
         ],
         l: [
-          "Specifications and connector options vary by model.",
-          "High-power deployments require stronger grid capacity.",
-          "Backend integration depends on OCPP implementation."
+          "Mostly DC-focused, fewer AC/home options.",
+          "Site grid upgrades may be needed for higher power.",
+          "Integration depth depends on backend and model."
         ],
         w: [
-          "Supports Morocco and Africa charging scale-up.",
-          "Improves EV adoption with broader charging coverage.",
-          "Strong benchmark supplier for infrastructure sourcing."
+          "Adds a budget-conscious option for Morocco expansion.",
+          "Helps diversify charger suppliers in procurement.",
+          "Supports rapid corridor and fleet charging rollout."
         ],
-        src: [{ title: "StarCharge", value: "Official website", url: "https://www.starcharge.com" }]
+        src: [
+          { title: "SETEC POWER", value: "Official website (address reference)", url: "https://www.setecpower.com/" }
+        ]
       },
       fr: {
-        sub: "Charging hardware supplier",
-        sb: "StarCharge EV Chargers",
-        ho: "StarCharge EV charger solutions for public and fleet infrastructure",
-        cta: { website: "Website", secondary: "Datasheet" },
+        sub: "China charger solutions",
+        sb: "SETEC POWER (HQ Proof)",
+        ho: "SETEC POWER EV charging profile with origin proof",
+        cta: { website: "Website", secondary: "Source" },
         dr: [
-          { label: "CHARGER TYPES", value: "AC + DC" },
-          { label: "POWER RANGE", value: "AC 7-22 kW | DC up to 360 kW" },
-          { label: "CONNECTOR TYPES", value: "Type 2, CCS2 (model dependent)" },
-          { label: "SMART / NETWORK", value: "OCPP support" },
-          { label: "TYPICAL USE", value: "Public, highway, fleet, commercial" }
+          { label: "COMPANY ORIGIN", value: "China" },
+          { label: "HQ / PROOF", value: "Shenzhen, China - #199 Setec Industrial Park, Nanshan, Shenzhen (company website address)." },
+          { label: "PRODUCT SCOPE", value: "DC fast chargers (commercial/public)." },
+          { label: "TYPICAL POWER RANGE", value: "DC 20-240 kW" },
+          { label: "SMART / NETWORK", value: "OCPP support varies by model." }
         ],
         d: { availability: "Disponible maintenant" },
         s: [
-          "Large global deployments and field experience.",
-          "Broad AC and DC portfolio across site types.",
-          "Scalable options for mixed urban + corridor rollout."
+          "Cost-effective DC fast charging portfolio.",
+          "Practical range for public and fleet deployments.",
+          "China manufacturing base can support volume scaling."
         ],
         l: [
-          "Specifications and connector options vary by model.",
-          "High-power deployments require stronger grid capacity.",
-          "Backend integration depends on OCPP implementation."
+          "Mostly DC-focused, fewer AC/home options.",
+          "Site grid upgrades may be needed for higher power.",
+          "Integration depth depends on backend and model."
         ],
         w: [
-          "Supports Morocco and Africa charging scale-up.",
-          "Improves EV adoption with broader charging coverage.",
-          "Strong benchmark supplier for infrastructure sourcing."
+          "Adds a budget-conscious option for Morocco expansion.",
+          "Helps diversify charger suppliers in procurement.",
+          "Supports rapid corridor and fleet charging rollout."
         ],
-        src: [{ title: "StarCharge", value: "Official website", url: "https://www.starcharge.com" }]
+        src: [
+          { title: "SETEC POWER", value: "Official website (address reference)", url: "https://www.setecpower.com/" }
+        ]
       }
     }
   },
   {
-    id: "xcharge-ev-chargers",
-    modelName: "XCharge EV Charger Solutions",
-    sidebarTitle: "XCharge EV Chargers",
-    subtitle: "Charging hardware supplier",
-    category: "EV Charging Infrastructure",
-    region: "China / Global",
-    regionFr: "China / Global",
-    heroImage: "assets/chargers/xcharge.png",
-    heroOverlay: "XCharge fast charging and battery-integrated systems",
+    id: "sinexcel-ev-chargers-verified",
+    modelName: "Sinexcel EV Charger Solutions",
+    sidebarTitle: "Sinexcel (HQ Proof)",
+    subtitle: "China charger solutions",
+    category: "CHARGER",
+    region: "China",
+    regionFr: "Chine",
+    heroImage: "assets/chargers/sinexcel.png",
+    heroOverlay: "Sinexcel origin-verified charging profile",
     brandLogo: "",
     excludeFromCarsTable: true,
     details: {
@@ -771,73 +775,279 @@ const SLIDE_ENTRIES = [
       availability: "available_now"
     },
     links: {
-      official: "https://www.xcharge.com",
-      app: "https://www.xcharge.com"
+      official: "https://en.sinexcel.com/",
+      app: "https://en.sinexcel.com/contact/"
     },
     ctaLabels: {
       website: "Website",
-      secondary: "Datasheet"
+      secondary: "Source"
     },
     t: {
       en: {
-        sub: "Charging hardware supplier",
-        sb: "XCharge EV Chargers",
-        ho: "XCharge solutions focused on high-power and grid-aware charging",
-        cta: { website: "Website", secondary: "Datasheet" },
+        sub: "China charger solutions",
+        sb: "Sinexcel (HQ Proof)",
+        ho: "Sinexcel EV charging profile with origin proof",
+        cta: { website: "Website", secondary: "Source" },
         dr: [
-          { label: "CHARGER TYPES", value: "DC fast charging (with integrated battery options)" },
-          { label: "POWER RANGE", value: "60-400 kW" },
-          { label: "CONNECTOR TYPES", value: "CCS2 (model dependent)" },
-          { label: "SMART / NETWORK", value: "OCPP support" },
-          { label: "TYPICAL USE", value: "Highway, commercial hubs, fleet depots" }
+          { label: "COMPANY ORIGIN", value: "China" },
+          { label: "HQ / PROOF", value: "Shenzhen, China - 1002 Songbai Rd, Nanshan, Shenzhen (contact page)." },
+          { label: "PRODUCT SCOPE", value: "DC + storage-integrated charging systems." },
+          { label: "TYPICAL POWER RANGE", value: "150-450 kW" },
+          { label: "SMART / NETWORK", value: "OCPP support varies by model." }
         ],
         d: { availability: "Available now" },
         s: [
-          "High-power charging options up to 400 kW.",
-          "Battery-integrated architecture can reduce grid dependency.",
-          "Good fit for constrained-grid fast-charge sites."
+          "High-power charging suitable for corridor hubs.",
+          "Energy-storage integration helps with grid constraints.",
+          "Strong fit for utility-linked charging strategies."
         ],
         l: [
-          "Site design complexity can increase for integrated systems.",
-          "Deployment economics depend on local tariff and demand charges.",
-          "Connector and product variants differ by market."
+          "Advanced systems raise project complexity.",
+          "Higher-power deployments need robust electrical design.",
+          "Local O&M capacity must be validated early."
         ],
         w: [
-          "Can accelerate charging rollout where grid is weaker.",
-          "Useful for Africa corridor and logistics use cases.",
-          "Adds resilience options for fast-charge infrastructure."
+          "Supports resilient rollout in constrained-grid areas.",
+          "Improves uptime strategy for public fast charging.",
+          "Brings storage-plus-charging benchmark to Morocco."
         ],
-        src: [{ title: "XCharge", value: "Official website", url: "https://www.xcharge.com" }]
+        src: [
+          { title: "Sinexcel Contact", value: "Address and company contact proof", url: "https://en.sinexcel.com/contact/" },
+          { title: "Sinexcel Website", value: "Official company website", url: "https://en.sinexcel.com/" }
+        ]
       },
       fr: {
-        sub: "Charging hardware supplier",
-        sb: "XCharge EV Chargers",
-        ho: "XCharge solutions focused on high-power and grid-aware charging",
-        cta: { website: "Website", secondary: "Datasheet" },
+        sub: "China charger solutions",
+        sb: "Sinexcel (HQ Proof)",
+        ho: "Sinexcel EV charging profile with origin proof",
+        cta: { website: "Website", secondary: "Source" },
         dr: [
-          { label: "CHARGER TYPES", value: "DC fast charging (with integrated battery options)" },
-          { label: "POWER RANGE", value: "60-400 kW" },
-          { label: "CONNECTOR TYPES", value: "CCS2 (model dependent)" },
-          { label: "SMART / NETWORK", value: "OCPP support" },
-          { label: "TYPICAL USE", value: "Highway, commercial hubs, fleet depots" }
+          { label: "COMPANY ORIGIN", value: "China" },
+          { label: "HQ / PROOF", value: "Shenzhen, China - 1002 Songbai Rd, Nanshan, Shenzhen (contact page)." },
+          { label: "PRODUCT SCOPE", value: "DC + storage-integrated charging systems." },
+          { label: "TYPICAL POWER RANGE", value: "150-450 kW" },
+          { label: "SMART / NETWORK", value: "OCPP support varies by model." }
         ],
         d: { availability: "Disponible maintenant" },
         s: [
-          "High-power charging options up to 400 kW.",
-          "Battery-integrated architecture can reduce grid dependency.",
-          "Good fit for constrained-grid fast-charge sites."
+          "High-power charging suitable for corridor hubs.",
+          "Energy-storage integration helps with grid constraints.",
+          "Strong fit for utility-linked charging strategies."
         ],
         l: [
-          "Site design complexity can increase for integrated systems.",
-          "Deployment economics depend on local tariff and demand charges.",
-          "Connector and product variants differ by market."
+          "Advanced systems raise project complexity.",
+          "Higher-power deployments need robust electrical design.",
+          "Local O&M capacity must be validated early."
         ],
         w: [
-          "Can accelerate charging rollout where grid is weaker.",
-          "Useful for Africa corridor and logistics use cases.",
-          "Adds resilience options for fast-charge infrastructure."
+          "Supports resilient rollout in constrained-grid areas.",
+          "Improves uptime strategy for public fast charging.",
+          "Brings storage-plus-charging benchmark to Morocco."
         ],
-        src: [{ title: "XCharge", value: "Official website", url: "https://www.xcharge.com" }]
+        src: [
+          { title: "Sinexcel Contact", value: "Address and company contact proof", url: "https://en.sinexcel.com/contact/" },
+          { title: "Sinexcel Website", value: "Official company website", url: "https://en.sinexcel.com/" }
+        ]
+      }
+    }
+  },
+  {
+    id: "xcharge-ev-chargers-verified",
+    modelName: "XCharge EV Charger Solutions",
+    sidebarTitle: "XCharge (HQ Proof)",
+    subtitle: "China charger solutions",
+    category: "CHARGER",
+    region: "China",
+    regionFr: "Chine",
+    heroImage: "assets/chargers/xcharge.png",
+    heroOverlay: "XCharge Chinese-founded profile with global operations",
+    brandLogo: "",
+    excludeFromCarsTable: true,
+    details: {
+      powertrain: null,
+      power: null,
+      range_km: null,
+      fuel_economy_l100km: null,
+      charging: null,
+      price_mad: null,
+      availability: "available_now"
+    },
+    links: {
+      official: "https://www.xcharge.com/",
+      app: "https://www.bloomberg.com/quote/XCH:US"
+    },
+    ctaLabels: {
+      website: "Website",
+      secondary: "Source"
+    },
+    t: {
+      en: {
+        sub: "China charger solutions",
+        sb: "XCharge (HQ Proof)",
+        ho: "XCharge Chinese-founded profile with global operations",
+        cta: { website: "Website", secondary: "Source" },
+        dr: [
+          { label: "COMPANY ORIGIN", value: "Chinese-founded (Beijing) + global operations" },
+          { label: "HQ / PROOF", value: "Beijing, China address in Bloomberg/SEC; also global HQ mentions in Hamburg and Austin." },
+          { label: "PRODUCT SCOPE", value: "DC fast charging + battery-integrated systems." },
+          { label: "TYPICAL POWER RANGE", value: "60-400 kW" },
+          { label: "SMART / NETWORK", value: "OCPP support varies by model." }
+        ],
+        d: { availability: "Available now" },
+        s: [
+          "High-power and battery-integrated fast charging options.",
+          "International operating footprint across key regions.",
+          "Useful for grid-constrained fast-charge deployment models."
+        ],
+        l: [
+          "Corporate footprint is evolving across regions.",
+          "Integrated systems can increase project complexity.",
+          "Model capabilities vary by market and deployment."
+        ],
+        w: [
+          "Relevant for Morocco where grid constraints may appear.",
+          "Provides a benchmark for resilient charging architectures.",
+          "Supports multi-region supplier comparison in procurement."
+        ],
+        src: [
+          { title: "Bloomberg Profile", value: "XCHG profile with Beijing company address", url: "https://www.bloomberg.com/quote/XCH:US" },
+          { title: "SEC Filing", value: "XCHG 6-K showing Beijing address and global footprint", url: "https://www.sec.gov/Archives/edgar/data/0001979887/000095017025056979/6k0423.htm" },
+          { title: "XCharge Website", value: "Official site", url: "https://www.xcharge.com/" }
+        ]
+      },
+      fr: {
+        sub: "China charger solutions",
+        sb: "XCharge (HQ Proof)",
+        ho: "XCharge Chinese-founded profile with global operations",
+        cta: { website: "Website", secondary: "Source" },
+        dr: [
+          { label: "COMPANY ORIGIN", value: "Chinese-founded (Beijing) + global operations" },
+          { label: "HQ / PROOF", value: "Beijing, China address in Bloomberg/SEC; also global HQ mentions in Hamburg and Austin." },
+          { label: "PRODUCT SCOPE", value: "DC fast charging + battery-integrated systems." },
+          { label: "TYPICAL POWER RANGE", value: "60-400 kW" },
+          { label: "SMART / NETWORK", value: "OCPP support varies by model." }
+        ],
+        d: { availability: "Disponible maintenant" },
+        s: [
+          "High-power and battery-integrated fast charging options.",
+          "International operating footprint across key regions.",
+          "Useful for grid-constrained fast-charge deployment models."
+        ],
+        l: [
+          "Corporate footprint is evolving across regions.",
+          "Integrated systems can increase project complexity.",
+          "Model capabilities vary by market and deployment."
+        ],
+        w: [
+          "Relevant for Morocco where grid constraints may appear.",
+          "Provides a benchmark for resilient charging architectures.",
+          "Supports multi-region supplier comparison in procurement."
+        ],
+        src: [
+          { title: "Bloomberg Profile", value: "XCHG profile with Beijing company address", url: "https://www.bloomberg.com/quote/XCH:US" },
+          { title: "SEC Filing", value: "XCHG 6-K showing Beijing address and global footprint", url: "https://www.sec.gov/Archives/edgar/data/0001979887/000095017025056979/6k0423.htm" },
+          { title: "XCharge Website", value: "Official site", url: "https://www.xcharge.com/" }
+        ]
+      }
+    }
+  },
+  {
+    id: "starcharge-ev-chargers-verified",
+    modelName: "StarCharge EV Charger Solutions",
+    sidebarTitle: "StarCharge (HQ Proof)",
+    subtitle: "China charger solutions",
+    category: "CHARGER",
+    region: "China",
+    regionFr: "Chine",
+    heroImage: "assets/chargers/starcharge.png",
+    heroOverlay: "StarCharge Chinese company profile with global HQ hub",
+    brandLogo: "",
+    excludeFromCarsTable: true,
+    details: {
+      powertrain: null,
+      power: null,
+      range_km: null,
+      fuel_economy_l100km: null,
+      charging: null,
+      price_mad: null,
+      availability: "available_now"
+    },
+    links: {
+      official: "https://www.starcharge.com/",
+      app: "https://www.starcharge.com/contact-us/"
+    },
+    ctaLabels: {
+      website: "Website",
+      secondary: "Source"
+    },
+    t: {
+      en: {
+        sub: "China charger solutions",
+        sb: "StarCharge (HQ Proof)",
+        ho: "StarCharge Chinese company profile with global HQ hub",
+        cta: { website: "Website", secondary: "Source" },
+        dr: [
+          { label: "COMPANY ORIGIN", value: "Chinese company + global HQ in Singapore" },
+          { label: "HQ / PROOF", value: "China office reference (PitchBook) + Singapore global HQ/APAC hub (company contact page)." },
+          { label: "PRODUCT SCOPE", value: "AC + DC charging hardware and microgrid solutions." },
+          { label: "TYPICAL POWER RANGE", value: "AC 7-22 kW | DC up to 360 kW" },
+          { label: "SMART / NETWORK", value: "OCPP support varies by model." }
+        ],
+        d: { availability: "Available now" },
+        s: [
+          "Large deployment base and broad scenario coverage.",
+          "Balanced AC and DC portfolio for mixed rollouts.",
+          "International setup supports cross-market projects."
+        ],
+        l: [
+          "Global structure can vary by legal entity and region.",
+          "Feature sets differ across charger series.",
+          "Local technical support capability must be confirmed."
+        ],
+        w: [
+          "Useful benchmark for Morocco public and destination charging.",
+          "Supports supplier diversification in infrastructure sourcing.",
+          "Helps compare China-origin and global operating models."
+        ],
+        src: [
+          { title: "PitchBook", value: "StarCharge China office reference", url: "https://pitchbook.com/profiles/company/439497-46" },
+          { title: "StarCharge Contact", value: "Singapore global HQ and APAC hub", url: "https://www.starcharge.com/contact-us/" },
+          { title: "StarCharge Website", value: "Official website", url: "https://www.starcharge.com/" }
+        ]
+      },
+      fr: {
+        sub: "China charger solutions",
+        sb: "StarCharge (HQ Proof)",
+        ho: "StarCharge Chinese company profile with global HQ hub",
+        cta: { website: "Website", secondary: "Source" },
+        dr: [
+          { label: "COMPANY ORIGIN", value: "Chinese company + global HQ in Singapore" },
+          { label: "HQ / PROOF", value: "China office reference (PitchBook) + Singapore global HQ/APAC hub (company contact page)." },
+          { label: "PRODUCT SCOPE", value: "AC + DC charging hardware and microgrid solutions." },
+          { label: "TYPICAL POWER RANGE", value: "AC 7-22 kW | DC up to 360 kW" },
+          { label: "SMART / NETWORK", value: "OCPP support varies by model." }
+        ],
+        d: { availability: "Disponible maintenant" },
+        s: [
+          "Large deployment base and broad scenario coverage.",
+          "Balanced AC and DC portfolio for mixed rollouts.",
+          "International setup supports cross-market projects."
+        ],
+        l: [
+          "Global structure can vary by legal entity and region.",
+          "Feature sets differ across charger series.",
+          "Local technical support capability must be confirmed."
+        ],
+        w: [
+          "Useful benchmark for Morocco public and destination charging.",
+          "Supports supplier diversification in infrastructure sourcing.",
+          "Helps compare China-origin and global operating models."
+        ],
+        src: [
+          { title: "PitchBook", value: "StarCharge China office reference", url: "https://pitchbook.com/profiles/company/439497-46" },
+          { title: "StarCharge Contact", value: "Singapore global HQ and APAC hub", url: "https://www.starcharge.com/contact-us/" },
+          { title: "StarCharge Website", value: "Official website", url: "https://www.starcharge.com/" }
+        ]
       }
     }
   },
@@ -934,190 +1144,6 @@ const SLIDE_ENTRIES = [
     }
   },
   {
-    id: "setec-power-ev-chargers",
-    modelName: "Setec Power EV Charger Solutions",
-    sidebarTitle: "Setec Power EV Chargers",
-    subtitle: "Charging hardware supplier",
-    category: "EV Charging Infrastructure",
-    region: "China / Global",
-    regionFr: "China / Global",
-    heroImage: "assets/chargers/setec.png",
-    heroOverlay: "Setec Power DC fast charging portfolio",
-    brandLogo: "",
-    excludeFromCarsTable: true,
-    details: {
-      powertrain: null,
-      power: null,
-      range_km: null,
-      fuel_economy_l100km: null,
-      charging: null,
-      price_mad: null,
-      availability: "available_now"
-    },
-    links: {
-      official: "https://www.setec-power.com",
-      app: "https://www.setec-power.com"
-    },
-    ctaLabels: {
-      website: "Website",
-      secondary: "Datasheet"
-    },
-    t: {
-      en: {
-        sub: "Charging hardware supplier",
-        sb: "Setec Power EV Chargers",
-        ho: "Setec cost-effective DC fast charging solutions",
-        cta: { website: "Website", secondary: "Datasheet" },
-        dr: [
-          { label: "CHARGER TYPES", value: "DC fast charging" },
-          { label: "POWER RANGE", value: "DC 20-240 kW" },
-          { label: "CONNECTOR TYPES", value: "CCS2, CHAdeMO (model dependent)" },
-          { label: "SMART / NETWORK", value: "OCPP support" },
-          { label: "TYPICAL USE", value: "Public charging, fleet, commercial fast-charge sites" }
-        ],
-        d: { availability: "Available now" },
-        s: [
-          "Cost-effective DC fast charger positioning.",
-          "Power range covers urban and corridor needs.",
-          "Practical option for budget-sensitive deployments."
-        ],
-        l: [
-          "DC-only focus may require separate AC supplier strategy.",
-          "Site permitting and grid upgrades still apply.",
-          "Exact connector/power options vary by model."
-        ],
-        w: [
-          "Can improve affordability of fast-charge expansion.",
-          "Relevant for scaling charging in Morocco and Africa.",
-          "Useful benchmark for CAPEX-constrained rollouts."
-        ],
-        src: [{ title: "Setec Power", value: "Official website", url: "https://www.setec-power.com" }]
-      },
-      fr: {
-        sub: "Charging hardware supplier",
-        sb: "Setec Power EV Chargers",
-        ho: "Setec cost-effective DC fast charging solutions",
-        cta: { website: "Website", secondary: "Datasheet" },
-        dr: [
-          { label: "CHARGER TYPES", value: "DC fast charging" },
-          { label: "POWER RANGE", value: "DC 20-240 kW" },
-          { label: "CONNECTOR TYPES", value: "CCS2, CHAdeMO (model dependent)" },
-          { label: "SMART / NETWORK", value: "OCPP support" },
-          { label: "TYPICAL USE", value: "Public charging, fleet, commercial fast-charge sites" }
-        ],
-        d: { availability: "Disponible maintenant" },
-        s: [
-          "Cost-effective DC fast charger positioning.",
-          "Power range covers urban and corridor needs.",
-          "Practical option for budget-sensitive deployments."
-        ],
-        l: [
-          "DC-only focus may require separate AC supplier strategy.",
-          "Site permitting and grid upgrades still apply.",
-          "Exact connector/power options vary by model."
-        ],
-        w: [
-          "Can improve affordability of fast-charge expansion.",
-          "Relevant for scaling charging in Morocco and Africa.",
-          "Useful benchmark for CAPEX-constrained rollouts."
-        ],
-        src: [{ title: "Setec Power", value: "Official website", url: "https://www.setec-power.com" }]
-      }
-    }
-  },
-  {
-    id: "sinexcel-ev-chargers",
-    modelName: "Sinexcel EV Charger Solutions",
-    sidebarTitle: "Sinexcel EV Chargers",
-    subtitle: "Charging hardware supplier",
-    category: "EV Charging Infrastructure",
-    region: "China / Global",
-    regionFr: "China / Global",
-    heroImage: "assets/chargers/sinexcel.png",
-    heroOverlay: "Sinexcel high-power charging and energy storage integration",
-    brandLogo: "",
-    excludeFromCarsTable: true,
-    details: {
-      powertrain: null,
-      power: null,
-      range_km: null,
-      fuel_economy_l100km: null,
-      charging: null,
-      price_mad: null,
-      availability: "available_now"
-    },
-    links: {
-      official: "https://www.sinexcel.com",
-      app: "https://www.sinexcel.com"
-    },
-    ctaLabels: {
-      website: "Website",
-      secondary: "Datasheet"
-    },
-    t: {
-      en: {
-        sub: "Charging hardware supplier",
-        sb: "Sinexcel EV Chargers",
-        ho: "Sinexcel charging solutions with charger + storage integration",
-        cta: { website: "Website", secondary: "Datasheet" },
-        dr: [
-          { label: "CHARGER TYPES", value: "DC fast charging" },
-          { label: "POWER RANGE", value: "150-450 kW" },
-          { label: "CONNECTOR TYPES", value: "CCS2 (model dependent)" },
-          { label: "SMART / NETWORK", value: "OCPP support" },
-          { label: "TYPICAL USE", value: "Highway hubs, public networks, energy-integrated sites" }
-        ],
-        d: { availability: "Available now" },
-        s: [
-          "High-power charging range for demanding corridors.",
-          "Charger + energy storage integration capability.",
-          "Useful for peak-shaving and resilient site design."
-        ],
-        l: [
-          "Advanced integrated systems can raise project complexity.",
-          "High-power infrastructure requires careful grid planning.",
-          "Project ROI depends on utilization and tariff structure."
-        ],
-        w: [
-          "Supports scalable fast-charge corridors in Morocco.",
-          "Helps Africa deployments where grid optimization matters.",
-          "Strong benchmark for future-ready charging architecture."
-        ],
-        src: [{ title: "Sinexcel", value: "Official website", url: "https://www.sinexcel.com" }]
-      },
-      fr: {
-        sub: "Charging hardware supplier",
-        sb: "Sinexcel EV Chargers",
-        ho: "Sinexcel charging solutions with charger + storage integration",
-        cta: { website: "Website", secondary: "Datasheet" },
-        dr: [
-          { label: "CHARGER TYPES", value: "DC fast charging" },
-          { label: "POWER RANGE", value: "150-450 kW" },
-          { label: "CONNECTOR TYPES", value: "CCS2 (model dependent)" },
-          { label: "SMART / NETWORK", value: "OCPP support" },
-          { label: "TYPICAL USE", value: "Highway hubs, public networks, energy-integrated sites" }
-        ],
-        d: { availability: "Disponible maintenant" },
-        s: [
-          "High-power charging range for demanding corridors.",
-          "Charger + energy storage integration capability.",
-          "Useful for peak-shaving and resilient site design."
-        ],
-        l: [
-          "Advanced integrated systems can raise project complexity.",
-          "High-power infrastructure requires careful grid planning.",
-          "Project ROI depends on utilization and tariff structure."
-        ],
-        w: [
-          "Supports scalable fast-charge corridors in Morocco.",
-          "Helps Africa deployments where grid optimization matters.",
-          "Strong benchmark for future-ready charging architecture."
-        ],
-        src: [{ title: "Sinexcel", value: "Official website", url: "https://www.sinexcel.com" }]
-      }
-    }
-  },
-  {
     id: "ev-chargers-table",
     modelName: "EV Chargers Comparison Table",
     subtitle: "Charging table",
@@ -1134,11 +1160,11 @@ const SLIDE_ENTRIES = [
       },
       rows: [
         [{ label: "BENY", slideId: "beny-ev-chargers" }, "AC + DC", "AC 3.7-22 kW | DC up to 600 kW", "Type 2, CCS2/GB-T (model dependent)", "Yes (ex: OCPP 1.6J)", "Public, commercial, fleet", { label: "BENY", url: "https://www.beny.com/ev-charger/" }],
-        [{ label: "StarCharge", slideId: "starcharge-ev-chargers" }, "AC + DC", "AC 7-22 kW | DC up to 360 kW", "Type 2, CCS2 (model dependent)", "Yes", "Public, highway, fleet", { label: "StarCharge", url: "https://www.starcharge.com" }],
-        [{ label: "XCharge", slideId: "xcharge-ev-chargers" }, "DC (battery-integrated options)", "60-400 kW", "CCS2 (model dependent)", "Yes", "Highway, commercial, fleet", { label: "XCharge", url: "https://www.xcharge.com" }],
+        [{ label: "StarCharge", slideId: "starcharge-ev-chargers-verified" }, "AC + DC", "AC 7-22 kW | DC up to 360 kW", "Type 2, CCS2 (model dependent)", "Yes", "Public, highway, fleet", { label: "StarCharge", url: "https://www.starcharge.com" }],
+        [{ label: "XCharge", slideId: "xcharge-ev-chargers-verified" }, "DC (battery-integrated options)", "60-400 kW", "CCS2 (model dependent)", "Yes", "Highway, commercial, fleet", { label: "XCharge", url: "https://www.xcharge.com" }],
         [{ label: "Autel Energy", slideId: "autel-energy-ev-chargers" }, "AC + DC", "AC 7-22 kW | DC up to 480 kW", "Type 2, CCS2 (model dependent)", "Yes", "Commercial, fleet, public fast charge", { label: "Autel", url: "https://autelenergy.com" }],
-        [{ label: "Setec Power", slideId: "setec-power-ev-chargers" }, "DC", "20-240 kW", "CCS2, CHAdeMO (model dependent)", "Yes", "Public fast charge, fleet", { label: "Setec", url: "https://www.setec-power.com" }],
-        [{ label: "Sinexcel", slideId: "sinexcel-ev-chargers" }, "DC", "150-450 kW", "CCS2 (model dependent)", "Yes", "Highway hubs, energy-integrated sites", { label: "Sinexcel", url: "https://www.sinexcel.com" }]
+        [{ label: "Setec Power", slideId: "setec-power-ev-chargers-verified" }, "DC", "20-240 kW", "CCS2, CHAdeMO (model dependent)", "Yes", "Public fast charge, fleet", { label: "Setec", url: "https://www.setec-power.com" }],
+        [{ label: "Sinexcel", slideId: "sinexcel-ev-chargers-verified" }, "DC", "150-450 kW", "CCS2 (model dependent)", "Yes", "Highway hubs, energy-integrated sites", { label: "Sinexcel", url: "https://www.sinexcel.com" }]
       ]
     },
     heroImage: "",
